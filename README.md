@@ -1,3 +1,10 @@
+Screenshot for Demo
+![Screenshot 2025-04-19 at 2 19 23 AM](https://github.com/user-attachments/assets/d11f36d0-c6d1-4c2b-ba7d-8e57b17d64bd)
+![Screenshot 2025-04-19 at 2 19 31 AM](https://github.com/user-attachments/assets/1f4b4346-cbef-45dc-990c-a51d591c91ea)
+![Screenshot 2025-04-19 at 2 20 33 AM](https://github.com/user-attachments/assets/c443df00-9a0c-48d1-81fc-d5116f598d90)
+![Screenshot 2025-04-19 at 2 21 00 AM](https://github.com/user-attachments/assets/f0ea43dc-2d31-40b3-964f-6b683d6515ca)
+
+
 Muli Model AI Application
 
 An Android app that wraps around popular AI models like GPT-4o, Claude, Gemini, and more — letting you chat, save, and revisit conversations with ease. Think of it like ChatGPT, but on your terms — with local API key storage and full session history.
@@ -19,8 +26,6 @@ Features
 	•	Responsive UI for phones
 	•	Dropdown model selection
 	•	Real-time chat feed and scroll to latest message
-
-Refer to video and screenshot folder for Demo
 
  Tech Stack
 	•	Kotlin with Jetpack Compose
