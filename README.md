@@ -1,36 +1,54 @@
-Chat History Persistence, Navigation, and UI Enhancements was done.
-#Feature Added:
-	•	Home screen now scrollable, dynamically lists all saved chat.
-	•	AI model selection dropdown and “Enter” button added to Home screen for starting new sessions.
-	•	On clicking “Enter”, user is prompted to enter their API key for the selected model.
-	•	A new chat session is launched, starting with a conversation ID.
-	•	Chat save button implemented to save full conversation data.
+Muli Model AI Application
 
- #Persistent Chat History (Room Integration)
+An Android app that wraps around popular AI models like GPT-4o, Claude, Gemini, and more — letting you chat, save, and revisit conversations with ease. Think of it like ChatGPT, but on your terms — with local API key storage and full session history.
 
-Room database and all necessary files were created for data storage and retrieval:
-	•	ChatMessageEntity.kt → Entity representing a single user/AI message.
-	•	ChatDao.kt → DAO interface for reading and writing messages.
-	•	ConversationEntity.kt → Represents a full conversation (ID, title, model).
-	•	ConversationDao.kt → Insert, update, delete, and fetch conversations.
-	•	ChatDatabase.kt → Room database class, now includes both entities and DAOs.
-	•	Gradle synced with all required Room dependencies.
+Features
+	• Multi-model AI Support
+	•	Choose from top models (OpenAI GPT-4o, Claude 3, Gemini 1.5, etc.)
+	•	Easily add or update models via centralized ModelRegistry
+	•	Secure API Key Entry
+	•	Prompted once per model
+	•	Stored locally on your device — never sent to a backend
+	•	Persistent Chat History
+	•	Save chats with titles and associated models
+	•	Resume any conversation with full context
+	•	Local Storage
+	•	Built with Room DB for offline-friendly performance
+	•	All chats and keys stored locally
+	•	Polished UX
+	•	Responsive UI for phones
+	•	Dropdown model selection
+	•	Real-time chat feed and scroll to latest message
 
-# Reactive State & Data Flow
-	•	collectAsState() used to feed Room data directly into UI.
-	•	Messages and conversation lists auto-update as the DB changes.
-	•	UI reflects all saved sessions and reacts live to new data.
+Refer to video and screenshot folder for Demo
 
-# Code Cleanup & Organization as necessary.
+ Tech Stack
+	•	Kotlin with Jetpack Compose
+	•	Room Database
+	•	Coroutine-based data flow
+	•	Retrofit / OkHttp (or HttpClient) for API calls
+	•	Supports OpenAI, Anthropic, Google Gemini, Mistral, LLaMA, etc. via AIML API
 
-# UI Improvements & Responsiveness
-	•	Polished Home and Chat layouts for mobile-friendliness.
-	•	Ensured balanced spacing between dropdown and enter button.
-	•	Used fillMaxWidth() and weighted layout where appropriate.
-	•	Fonts, padding, alignment all tuned for visual clarity and usability.
+⸻
+How to Use
+	1.	Clone the repo: git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+	2.	Open in Android Studio
+	3.	Run the app on your emulator or device
+	4.	On first run:
+	•	Select a model
+	•	Enter your API key (get one from aimlapi.com)
+	•	Start chatting!
 
- # Additional Functionalities
-	•	Delete all chats feature implemented was made functional.
-	•	Conversation list now shows:
-	•	Title
-	•	Model used
+⸻
+Supported Models
+Includes but not limited to:
+	•	GPT-4o
+	•	Claude 3 (Haiku, Sonnet, Opus)
+	•	Gemini 1.5 Pro
+	•	Mistral / Mixtral
+	•	LLaMA-3
+	•	DeepSeek / Qwen
+
+⸻
+License
+Do not distribut or use it for business purpose, the allowence is only for testing.
