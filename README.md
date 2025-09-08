@@ -33,8 +33,6 @@ Features
 	•	Coroutine-based data flow
 	•	Retrofit / OkHttp (or HttpClient) for API calls
 	•	Supports OpenAI, Anthropic, Google Gemini, Mistral, LLaMA, etc. via AIML API
-
-⸻
 How to Use
 	1.	Clone the repo: git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 	2.	Open in Android Studio
@@ -44,7 +42,6 @@ How to Use
 	•	Enter your API key (get one from aimlapi.com)
 	•	Start chatting!
 
-⸻
 Supported Models
 Includes but not limited to:
 	•	GPT-4o
@@ -53,7 +50,5 @@ Includes but not limited to:
 	•	Mistral / Mixtral
 	•	LLaMA-3
 	•	DeepSeek / Qwen
-
-⸻
 License
 Do not distribut or use it for business purpose, the allowence is only for testing.
