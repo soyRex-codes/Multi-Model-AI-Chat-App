@@ -7,11 +7,11 @@ Screenshot for Demo
 
 Muli Model AI Application
 
-An Android app that wraps around popular AI models like GPT-4o, Claude, Gemini, and more — letting you chat, save, and revisit conversations with ease. Think of it like ChatGPT, but on your terms — with local API key storage and full session history.
+An Android app that wraps around popular AI models like GPT-4o, Claude, Gemini, and more - letting you chat, save, and revisit conversations with ease. Think of it like ChatGPT, but on your terms - with local API key storage and full session history.
 
 Features
 	• Multi-model AI Support
-	•	Choose from top models (OpenAI GPT-4o, Claude 3, Gemini 1.5, etc.)
+	•	Choose from top models (OpenAI GPT-5, Claude 4, Gemini 2.5, etc.)
 	•	Easily add or update models via centralized ModelRegistry
 	•	Secure API Key Entry
 	•	Prompted once per model
@@ -31,7 +31,7 @@ Features
 	•	Kotlin with Jetpack Compose
 	•	Room Database
 	•	Coroutine-based data flow
-	•	Retrofit / OkHttp (or HttpClient) for API calls
+	•	Retrofit/OkHttp (or HttpClient) for API calls
 	•	Supports OpenAI, Anthropic, Google Gemini, Mistral, LLaMA, etc. via AIML API
 How to Use
 	1.	Clone the repo: git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
@@ -44,11 +44,11 @@ How to Use
 
 Supported Models
 Includes but not limited to:
-	•	GPT-4o
-	•	Claude 3 (Haiku, Sonnet, Opus)
-	•	Gemini 1.5 Pro
+	•	GPT-5
+	•	Claude 4 (Sonnet)
+	•	Gemini 2.5 Pro
 	•	Mistral / Mixtral
 	•	LLaMA-3
 	•	DeepSeek / Qwen
 License
-Do not distribut or use it for business purpose, the allowence is only for testing.
+Do not distribut or use it for business purpose, the allowence is only for trial or testing.
